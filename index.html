@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src='js/slick.min.js'></script>
+    <script type="text/javascript" src='js/slick.js'></script>
+    <script type="text/javascript" src='js/script-base.js'></script>
+    <script type="text/javascript" src='js/script-home.js'></script>
+    <script type="text/javascript" src='js/bootstrap.js'></script>
+    <script type="text/javascript" src='js/jquery-3.2.1.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="mycontainer">
+            <div id="mySidenav" class="sidenav">
+                <form action="search.html">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default sidebar__btn" type="submit">
+                                <i class="glyphicon glyphicon-search sidebar__glyphicon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div id="sidebar__menu">
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about-us.html">About Us</a> </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggle collapsed" onclick="ClickSideBar()"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <div class="header__logo">
+                <a href=""><img class="img-logo" src="img/logo-135x34.png" alt=""></a>
+            </div>
+            <nav>
+                <button type="submit" class="header__search active-search"><i class="fa fa-search"></i></button>
+                <form action="search.html" method="post" class="header__form__search">
+                    <button type="submit" class="header__search"><i class="fa fa-search"></i></button>
+                    <input type="search" name="s" class="form-control" id="header__menu__search" placeholder="Search">
+                </form>
+                <div id="header__menu">
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about-us.html">About Us</a> </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <button id="main_btn_up"></button>
+    </header>
+    <section class="big-banner">
+        <div class="big-banner__item">
+            <img src="img/bg-image-1.jpg" alt="Chania" class="carousel__img">
+            <div class="big-banner__caption big-banner__bot">
+                <div class="big-banner__caption-content">
+                    <h1 class="main1__caption"><span class="main__caption__fat">Upgrade </span>your business</h1>
+                    <p class="main1__caption__p">We provide extensive assistance with any audit issues to modern bussinesses</p>
+                    <button class="btn btn-success main1__caption__button">make An Appointment</button>
+                    <span class="main1__caption__border tl"></span>
+                    <span class="main1__caption__border tr"></span>
+                    <span class="main1__caption__border bl"></span>
+                    <span class="main1__caption__border br"></span>
+                </div>
+            </div>
+        </div>
+        <div class="big-banner__item">
+            <img src="img/bg-image-2.jpg" alt="Chania" class="carousel__img">
+            <div class="big-banner__caption big-banner__bot">
+                <div class="big-banner__caption-content">
+                    <h1 class="main1__caption"><span class="main__caption__fat">We Provide</span> Proper Audit Solutions</h1>
+                    <p class="main1__caption__p">Optimize audit costs using our years of experience</p>
+                    <button class="btn btn-success main1__caption__button">make An Appointment</button>
+                    <span class="main1__caption__border tl"></span>
+                    <span class="main1__caption__border tr"></span>
+                    <span class="main1__caption__border bl"></span>
+                    <span class="main1__caption__border br"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="main1 row">
+        <div class="main1__item">
+            <div class="main1__item__content">
+                <img class="main1__item__img" src="img/icon-6.png" alt="">
+                <h2 class="main1__item__caption"><a href="#">Attest Services</a> </h2>
+                <p>Attestation services that we provide, include the process of independent review of the data validity audited by an accountant.</p>
+                <a href="#" class="main1__item__icon"><i class="glyphicon glyphicon-arrow-right "></i> </a>
+            </div>
+        </div>
+        <div class="main1__item">
+            <div class="main1__item__content">
+                <img class="main1__item__img" src="img/icon-5.png" alt="">
+                <h2 class="main1__item__caption"><a href="#">Review</a> </h2>
+                <p>Reviews are less detailed and consist predominantly of an assessment of the company`s books and records.</p>
+                <a href="#" class="main1__item__icon"><i class="glyphicon glyphicon-arrow-right "></i> </a>
+            </div>
+        </div>
+        <div class="main1__item">
+            <div class="main1__item__content">
+                <img class="main1__item__img" src="img/icon-4.png" alt="">
+                <h2 class="main1__item__caption"><a href="#">Legislative Support</a> </h2>
+                <p>To ensure the quality and effectiveness of every business activity, we support our every client by supporting them in all legislative issues</p>
+                <a href="#" class="main1__item__icon"><i class="glyphicon glyphicon-arrow-right "></i> </a>
+            </div>
+        </div>
+        <div class="main1__item">
+            <div class="main1__item__content">
+                <img class="main1__item__img" src="img/icon-3.png" alt="">
+                <h2 class="main1__item__caption"><a href="#">Audit</a> </h2>
+                <p>Audits are verified by sight, confirmation, discussion with management, assessment of internal controls and analytical procedures</p>
+                <a href="#" class="main1__item__icon"><i class="glyphicon glyphicon-arrow-right "></i> </a>
+            </div>
+        </div>
+        <div class="main1__item">
+            <div class="main1__item__content">
+                <img class="main1__item__img" src="img/icon-2.png" alt="">
+                <h2 class="main1__item__caption"><a href="#">Accounting</a> </h2>
+                <p>A range of services designed to provide timely preparation of company accounts, whether it be at the financial year end or on a monthly basis</p>
+                <a href="#" class="main1__item__icon"><i class="glyphicon glyphicon-arrow-right "></i> </a>
+            </div>
+        </div>
+        <div class="main1__item">
+            <div class="main1__item__content">
+                <img class="main1__item__img" src="img/icon-1.png" alt="">
+                <h2 class="main1__item__caption"><a href="#">Internal Audit</a> </h2>
+                <p>Audit services are designed to help your business mitigate risk, create new efficiencies and better support strategic objectives.</p>
+                <a href="#" class="main1__item__icon"><i class="glyphicon glyphicon-arrow-right "></i> </a>
+            </div>
+        </div>
+    </main>
+    <section class="section2">
+        <div class="shell">
+            <h2 class="shell__caption-up">LOOKING FOR</h2>
+            <h3 class="shell__caption">A FIRST-CLASS<span class="main__caption__fat"> AUDITOR?</span></h3>
+            <p class="shell__caption-p">With a lot of experience in audit, hiring us will become a proper solution for your business!</p>
+            <div class="section2__number">
+                <div class="number__item">
+                    <span class="number__item__number">850</span>
+                    <h4 class="number__item__upper-caption">Trusted Clients</h4>
+                </div>
+                <div class="number__item">
+                    <span class="number__item__number">18</span>
+                    <h4 class="number__item__upper-caption">AWARDS</h4>
+                </div>
+                <div class="number__item">
+                    <span class="number__item__number">21</span>
+                    <h4 class="number__item__upper-caption">YEARS OF EXPERIENCE
+</h4></div>
+                <div class="number__item">
+                    <span class="number__item__number">16</span>
+                    <h4 class="number__item__upper-caption">EXPERTS</h4>
+                </div>
+            </div>
+            <div class="section2__btns">
+                <button class="section2__btn__item1 section2__btn">Make an Appointment</button>
+                <span class="section2__txt">or</span>
+                <button class="section2__btn__item2 section2__btn">See All services</button>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <h2 class="section3__capt"><span class="section3__capt-black">our </span>team</h2>
+        <div class="section3__people">
+            <div class="section3__people-item people">
+                <div class="people__block-img">
+                    <img class="people__img__circle" src="img/team-3-151x151.jpg" alt=""></div>
+                <h3 class="people__name"> David Nicholson  </h3>
+                <h4 class="people__work">Audit Manager</h4>
+                <hr>
+                <span class="people__phone"><a href=""><i class="glyphicon glyphicon-earphone"></i>16095678974</a> </span>
+                <span class="people__email"><a href=""><i class="glyphicon glyphicon-envelope"></i> info@demolink.org </a> </span>
+            </div>
+            <div class="section3__people-item people">
+                <div class="people__block-img">
+                    <img class="people__img__circle" src="img/team-2-151x151.jpg" alt=""></div>
+                <h3 class="people__name"> David Nicholson  </h3>
+                <h4 class="people__work">Audit Manager</h4>
+                <hr>
+                <span class="people__phone"><a href=""><i class="glyphicon glyphicon-earphone"></i>16095678974</a> </span>
+                <span class="people__email"><a href=""><i class="glyphicon glyphicon-envelope"></i> info@demolink.org </a> </span>
+            </div>
+            <div class="section3__people-item people">
+                <div class="people__block-img">
+                    <img class="people__img__circle" src="img/team-1-151x151.jpg" alt=""></div>
+                <h3 class="people__name"> David Nicholson  </h3>
+                <h4 class="people__work">Audit Manager</h4>
+                <hr>
+                <span class="people__phone"><a href=""><i class="glyphicon glyphicon-earphone"></i>16095678974</a> </span>
+                <span class="people__email"><a href=""><i class="glyphicon glyphicon-envelope"></i> info@demolink.org </a> </span>
+            </div>
+            <div class="section3__people-item people">
+                <div class="people__block-img">
+                    <img class="people__img__circle" src="img/team-1-151x151.jpg" alt=""></div>
+                <h3 class="people__name"> David Nicholson  </h3>
+                <h4 class="people__work">Audit Manager</h4>
+                <hr>
+                <span class="people__phone"><a href=""><i class="glyphicon glyphicon-earphone"></i>16095678974</a> </span>
+                <span class="people__email"><a href=""><i class="glyphicon glyphicon-envelope"></i> info@demolink.org </a> </span>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="section4__square"></div>
+        <h2 class="section4__capt">REQUEST<span class="section4__capt-small"> A CALLBACK</span></h2>
+        <form action="" class="section4__form">
+            <input class="section4__input" type="text" name="firstname" placeholder="firstname">
+            <input class="section4__input" type="text" name="phonenumber" value="Phone Number">
+            <select class="section4__select" name="" id="">
+                <option class="section4__option" value="I would like to Discuss">I would like to Discuss</option>
+                <option class="section4__option" value="I wouldn`t like to Discuss">I wouldn`t like to Discus</option>
+            </select>
+            <button class="section4__button" type="submit">submit</button>
+        </form>
+    </section>
+    <section class="section5">
+        <div class="section5__item item5">
+            <h2 class="item__cap5">SUCCESSFUL<span class="item__cap-big5"> CASES</span></h2>
+            <div class="slider__for item__imgs5">
+                <div class="slider__for__img">
+                    <img src="img/home-testimonials-1-99x99.jpg" alt="" class="item__img5"></div>
+                <div class="slider__for__img">
+                    <img src="img/home-testimonials-2-99x99.jpg" alt="" class="item__img5"></div>
+                <div class="slider__for__img">
+                    <img src="img/home-testimonials-3-99x99.jpg" alt="" class="item__img5"></div>
+                <div class="slider__for__img">
+                    <img src="img/home-testimonials-4-99x99.jpg" alt="" class="item__img5"></div>
+            </div>
+            <div class="slider__nav">
+                <div class="slider__nav__item">
+                    <div class="item__sect">
+                        <div class="item__sect__item">
+                            <span class="item__name5">Amelia Lee</span>
+                            <span class="item__count5">Sales, demolink.org</span></div>
+                        <div class="item__sect__item">
+                            <span class="item__prose15">-50%</span>
+                            <span class="item__expenses5">Expenses</span></div>
+                        <div class="item__sect__item">
+                            <span class="item__prose25">+50%</span>
+                            <span class="item__profit5">profit</span>
+                        </div>
+                    </div>
+                    <hr class="item__hr5">
+                    <img class="item__img25" src="img/icon-quote.png" alt="">
+                    <p class="item__p5"> I would not hesitate even one bit to work with them for my future tax and accounting needs.</p>
+                    <button class="section2__btn__item1 item__btn5">read more</button>
+                </div>
+                <div class="slider__nav__item">
+                    <div class="item__sect">
+                        <div class="item__sect__item">
+                            <span class="item__name5">Amelia Lee</span>
+                            <span class="item__count5">Sales, demolink.org</span></div>
+                        <div class="item__sect__item">
+                            <span class="item__prose15">-50%</span>
+                            <span class="item__expenses5">Expenses</span></div>
+                        <div class="item__sect__item">
+                            <span class="item__prose25">+50%</span>
+                            <span class="item__profit5">profit</span>
+                        </div>
+                    </div>
+                    <hr class="item__hr5">
+                    <img class="item__img25" src="img/icon-quote.png" alt="">
+                    <p class="item__p5"> I would not hesitate even one bit to work with them for my future tax and accounting needs.</p>
+                    <button class="section2__btn__item1 item__btn5">read more</button>
+                </div>
+                <div class="slider__nav__item">
+                    <div class="item__sect">
+                        <div class="item__sect__item">
+                            <span class="item__name5">Amelia Lee</span>
+                            <span class="item__count5">Sales, demolink.org</span></div>
+                        <div class="item__sect__item">
+                            <span class="item__prose15">-50%</span>
+                            <span class="item__expenses5">Expenses</span></div>
+                        <div class="item__sect__item">
+                            <span class="item__prose25">+50%</span>
+                            <span class="item__profit5">profit</span>
+                        </div>
+                    </div>
+                    <hr class="item__hr5">
+                    <img class="item__img25" src="img/icon-quote.png" alt="">
+                    <p class="item__p5"> I would not hesitate even one bit to work with them for my future tax and accounting needs.</p>
+                    <button class="section2__btn__item1 item__btn5">read more</button>
+                </div>
+            </div>
+        </div>
+        <div class="big-banner-sect5"></div>
+    </section>
+    <section class="sect__last">
+        <h2 class="sect__last-cap">LATEST<span class="sect__last-capbig"> NEWS</span></h2>
+        <div class="sect__last-container">
+            <div class="sect__last-item last__item">
+                <div class="last__item-text">
+                    <img src="img/home-1-322x219.jpg" alt="" class="last__item-img">
+                    <h3 class="last__item-new"><a href="">Choosing the Strategy</a></h3>
+                    <p class="last__item__data">
+                        Квітень 27, 2017
+                        <span class="last__item-creator">BY <a href="">Artyr264</a></span></p>
+                </div>
+            </div>
+            <div class="sect__last-item last__item">
+                <div class="last__item-text">
+                    <img src="img/home-1-322x219.jpg" alt="" class="last__item-img">
+                    <h3 class="last__item-new"><a href="">Choosing the Strategy</a></h3>
+                    <p class="last__item__data">
+                        Квітень 27, 2017
+                        <span class="last__item-creator">BY <a href="">Artyr264</a></span></p>
+                </div>
+            </div>
+            <div class="sect__last-item last__item">
+                <div class="last__item-text">
+                    <img src="img/home-1-322x219.jpg" alt="" class="last__item-img">
+                    <h3 class="last__item-new"><a href="">Choosing the Strategy</a></h3>
+                    <p class="last__item__data">
+                        Квітень 27, 2017
+                        <span class="last__item-creator">BY <a href="">Artyr264</a></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="foot__cont">
+            <div class="foot__items">
+                <div class="foot__item">
+                    <img src="img/logo-135x34.png" alt="" class="foot__item1-img">
+                    <p class="foot__item1-text">EasyAudit delivers environment through which high-quality firms from diverse backgrounds can work together toward their own common goals.</p>
+                    <span class="foot__item1-cap"><a href="">Free Consultation</a></span>
+                </div>
+                <div class="foot__item">
+                    <h2 class="foot__item-cap">RECENT POSTS</h2>
+                    <div class="foot__item2-post">
+                        <img src="img/post-preview-2-70x70.jpg" alt="" class="foot__item2-post-img">
+                        <div class="foot__item2-post__cont">
+                            <p class="foot__item2-post__cap"><a href="#">Top 3 Concerns Whe Choosing a Cloud Vendor</a></p>
+                            <span>June 23, 2016</span>
+                        </div>
+                    </div>
+                    <div class="foot__item2-post">
+                        <img src="img/post-preview-1-70x70.jpg" alt="" class="foot__item2-post-img">
+                        <div class="foot__item2-post__cont">
+                            <p class="foot__item2-post__cap"><a href="#">Top 3 Concerns Whe Choosing a Cloud Vendor</a></p>
+                            <span>June 23, 2016</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot__item">
+                    <h2 class="foot__item-cap">QUICK LINKS</h2>
+                    <div class="foot__item3-list">
+                        <ul>
+                            <li><a href="#">Home</a> </li>
+                            <li><a href="about-us.html">About Us</a> </li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contacts.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot__item">
+                    <h2 class="foot__item-cap">CONTACT US</h2>
+                    <div class="foot__item4-cont">
+                        <span class="foot__item4-tell"><a href=""> +1 (409) 987–5874</a></span>
+                        <span class="foot__item4-email"><a href="">info@demolink.org</a></span>
+                        <span class="foot__item4-adress"><a href="">6036 Richmond hwy,Alexandria, VA USA 22303</a></span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="foot__foot">
+                <div class="foot__foot-cont">
+                    <span class="foot__foot-text">Follow Us:</span>
+                    <a href="" class="foot__foot-cont__item"><i class="foot__graf fa-facebook-square"></i></a>
+                    <a href="" class="foot__foot-cont__item"><i class=" foot__graf fa-google-plus-square"></i></a>
+                    <a href="" class="foot__foot-cont__item"><i class="  foot__graf fa-twitter-square"></i></a>
+                </div>
+                <span class="foot__about">2017 © EasyAudit. Privacy Policy</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

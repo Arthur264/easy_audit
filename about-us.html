@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src='js/slick.min.js'></script>
+    <script type="text/javascript" src='js/slick.js'></script>
+    <script type="text/javascript" src='js/script-base.js'></script>
+    <script type="text/javascript" src='js/script-about-us.js'></script>
+    <script type="text/javascript" src='js/bootstrap.js'></script>
+    <script type="text/javascript" src='js/jquery-3.2.1.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="mycontainer">
+            <div id="mySidenav" class="sidenav">
+                <form action="search.html">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default sidebar__btn" type="submit">
+                                <i class="glyphicon glyphicon-search sidebar__glyphicon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div id="sidebar__menu">
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about-us.html">About Us</a> </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <button class="navbar-toggle collapsed" onclick="ClickSideBar()"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <div class="header__logo">
+                <a href=""><img class="img-logo" src="img/logo-135x34.png" alt=""></a>
+            </div>
+            <nav>
+                <button type="submit" class="header__search active-search"><i class="fa fa-search"></i></button>
+                <form action="search.html" method="post" class="header__form__search">
+                    <button type="submit" class="header__search"><i class="fa fa-search"></i></button>
+                    <input type="search" name="s" class="form-control" id="header__menu__search" placeholder="Search">
+                </form>
+                <div id="header__menu">
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about-us.html">About Us</a> </li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <button id="main_btn_up"></button>
+    </header>
+    <img src="img/bg-image-1.jpg" class="search__img">
+    <section class="main2">
+        <div class="main2__img">
+        </div>
+        <div class="main2__cont">
+            <h2 class="main2__caption"><span class="h2-black">
+            WHY </span>CHOOSE US</h2>
+            <p class="main2__text">At Easy Audit, we treat each clients business as if it were our own. To us, nothing is more important than knowing all we can about your financial goals and aspirations, and helping you to achieve them. Our professional team is constantly working to know every significant aspect of your business operation, and the key members of your organization. We understand that you are looking for high quality business consulting, and that’s exactly what we provide.</p>
+            <button class="main2__btn section2__btn__item1">read more</button>
+        </div>
+    </section>
+    <div class="section6">
+        <div class="section6__cont">
+            <h2 class="section6__capt"><span class="h2-black">OUR </span> ADVANTAGES</h2>
+            <div class="section6__items">
+                <div class="section6__item">
+                    <div class="section6__item__img"><i class="section6__item__icon fa fa-briefcase "></i></div>
+                    <div class="section6__item__cont">
+                        <h3 class="section6__item__capt">Confidentiality</h3>
+                        <p class="section6__item__text">We guarantee the confidentiality of our client data through strict control over our infrastructure, as well as our physical and personal access rights.</p>
+                    </div>
+                </div>
+                <div class="section6__item">
+                    <div class="section6__item__img"> <i class="section6__item__icon fa fa-child"></i> </div>
+                    <div class="section6__item__cont">
+                        <h3 class="section6__item__capt">Comprehensive support</h3>
+                        <span class="section6__item__icon2"></span>
+                        <p class="section6__item__text">As an experienced outsourcing provider, we offer legal services, audit and internal control, financial administration, and other business support.</p>
+                    </div>
+                </div>
+                <div class="section6__item">
+                    <div class="section6__item__img"><i class="section6__item__icon fa fa-clock-o"></i> </div>
+                    <div class="section6__item__cont">
+                        <h3 class="section6__item__capt">Quality</h3>
+                        <span class="section6__item__icon3"></span>
+                        <p class="section6__item__text">We are dedicated to providing high quality financial administration services based on extensive experience and knowledge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section6__img"></div>
+    </div>
+    <div class="section7">
+        <div class="section7__item">
+            <h2 class="section7__item__capt"><span class="h2-black">WHO</span> WE ARE</h2>
+            <p class="section7__item__text">Easy Audit provides progressively minded, growing businesses with a single source of strategic solutions that span the full range of their needs – from tax, assurance, accounting and advisory to hands-on business consulting.
+                <br> We have built our firm on a solid foundation of knowledge, a forward-looking vision and a belief in doing business differently. Our goal is to empower you – wherever you are based – to navigate your complex business challenges with confidence.</p>
+        </div>
+        <div class="section7__item">
+            <div class="section7__item__part">
+                <span class="section7__item__part__capt">Tax Consultancy Services</span>
+                <span class="section7__item__part__num">70%</span>
+                <span class="section7__item__part__line"></span>
+            </div>
+            <div class="section7__item__part">
+                <span class="section7__item__part__capt">Tax Training</span>
+                <span class="section7__item__part__num">54%</span>
+                <span class="section7__item__part__line"></span>
+            </div>
+            <div class="section7__item__part">
+                <span class="section7__item__part__capt">Bookkeeping</span>
+                <span class="section7__item__part__num">87%</span>
+                <span class="section7__item__part__line"></span>
+            </div>
+            <div class="section7__item__part">
+                <span class="section7__item__part__capt">Bank Reconciliation</span>
+                <span class="section7__item__part__num">90%</span>
+                <span class="section7__item__part__line"></span>
+            </div>
+        </div>
+    </div>
+    <div class="section8">
+        <h2 class="section8__capt">PROFESSIONAL AUDIT</h2>
+        <button class="section8__btn section2__btn">learn more</button>
+    </div>
+    <div class="section9">
+        <h2 class="section9__capt"><span class="h2-black">WHAT</span>CLIENTS SAY? </h2>
+        <div class="section9__items">
+            <div class="section9__item">
+                <div class="section9__item__main">
+                    <img src="img/icon-quote.png" alt="" class="section9__item__img">
+                    <p class="section9__item__text">Beyond a shadow of doubt, they are the Best Tax Consultants I have ever come across.</p>
+                </div>
+                <div class="section9__item__people">
+                    <img src="img/clients-testimonials-7-113x113.jpg" alt="" class="section9__item__people_img">
+                    <div class="section9__item__people__name">Axel Merphy</div>
+                    <div class="section9__item__people__pos">Client</div>
+                </div>
+            </div>
+            <div class="section9__item">
+                <div class="section9__item__main">
+                    <img src="img/icon-quote.png" alt="" class="section9__item__img">
+                    <p class="section9__item__text">I would not hesitate even one bit to work with them for my future tax and accounting needs.</p>
+                </div>
+                <div class="section9__item__people">
+                    <img src="img/clients-testimonials-8-113x113.jpg" alt="" class="section9__item__people_img">
+                    <div class="section9__item__people__name">Amelia Lee</div>
+                    <div class="section9__item__people__pos">Client</div>
+                </div>
+            </div>
+            <div class="section9__item">
+                <div class="section9__item__main">
+                    <img src="img/icon-quote.png" alt="" class="section9__item__img">
+                    <p class="section9__item__text">The Tax Experts at TaxExpert are thorough professionals and always go that extra mile to help their clients.</p>
+                </div>
+                <div class="section9__item__people">
+                    <img src="img/clients-testimonials-9-113x113.jpg" alt="" class="section9__item__people_img">
+                    <div class="section9__item__people__name">Jack McGee</div>
+                    <div class="section9__item__people__pos">Client</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="foot__cont">
+            <div class="foot__items">
+                <div class="foot__item">
+                    <img src="img/logo-135x34.png" alt="" class="foot__item1-img">
+                    <p class="foot__item1-text">EasyAudit delivers environment through which high-quality firms from diverse backgrounds can work together toward their own common goals.</p>
+                    <span class="foot__item1-cap"><a href="">Free Consultation</a></span>
+                </div>
+                <div class="foot__item">
+                    <h2 class="foot__item-cap">RECENT POSTS</h2>
+                    <div class="foot__item2-post">
+                        <img src="img/post-preview-2-70x70.jpg" alt="" class="foot__item2-post-img">
+                        <div class="foot__item2-post__cont">
+                            <p class="foot__item2-post__cap"><a href="#">Top 3 Concerns Whe Choosing a Cloud Vendor</a></p>
+                            <span>June 23, 2016</span>
+                        </div>
+                    </div>
+                    <div class="foot__item2-post">
+                        <img src="img/post-preview-1-70x70.jpg" alt="" class="foot__item2-post-img">
+                        <div class="foot__item2-post__cont">
+                            <p class="foot__item2-post__cap"><a href="#">Top 3 Concerns Whe Choosing a Cloud Vendor</a></p>
+                            <span>June 23, 2016</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot__item">
+                    <h2 class="foot__item-cap">QUICK LINKS</h2>
+                    <div class="foot__item3-list">
+                        <ul>
+                            <li><a href="#">Home</a> </li>
+                            <li><a href="about-us.html">About Us</a> </li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="contacts.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot__item">
+                    <h2 class="foot__item-cap">CONTACT US</h2>
+                    <div class="foot__item4-cont">
+                        <span class="foot__item4-tell"><a href=""> +1 (409) 987–5874</a></span>
+                        <span class="foot__item4-email"><a href="">info@demolink.org</a></span>
+                        <span class="foot__item4-adress"><a href="">6036 Richmond hwy,Alexandria, VA USA 22303</a></span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="foot__foot">
+                <div class="foot__foot-cont">
+                    <span class="foot__foot-text">Follow Us:</span>
+                    <a href="" class="foot__foot-cont__item"><i class="foot__graf fa-facebook-square"></i></a>
+                    <a href="" class="foot__foot-cont__item"><i class=" foot__graf fa-google-plus-square"></i></a>
+                    <a href="" class="foot__foot-cont__item"><i class="  foot__graf fa-twitter-square"></i></a>
+                </div>
+                <span class="foot__about">2017 © EasyAudit. Privacy Policy</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
